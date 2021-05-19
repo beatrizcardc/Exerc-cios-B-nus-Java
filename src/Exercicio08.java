@@ -6,8 +6,7 @@ public class Exercicio08 {
 		Scanner leitor = new Scanner(System.in);
 		int contador=0, alunos;
 		double nota, notamedia;
-		Object qtdmedias = null;
-		Object bolean = qtdmedias;
+		int qtdmedias;
 		alunos=5;
 		
 		System.out.println("Qual é a nota média da turma?");
