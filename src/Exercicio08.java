@@ -19,7 +19,7 @@ public class Exercicio08 {
 			nota = leitor.nextDouble();
 			qtdmedias = nota>notamedia;
 			contador = contador + 1;
-			
+			System.out.println("A quantidade de alunos com nota cima da média é " + qtdmedias);
 			}
 		leitor.close();
 		}
